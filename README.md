@@ -25,5 +25,5 @@ Black brash with size 10px and 255 opacity.
 - [Create a custom drawing](https://developer.android.com/develop/ui/views/layout/custom-views/custom-drawing)
 - [Drawables overview](https://developer.android.com/develop/ui/views/graphics/drawables)
 
-# Prototype Vide
+# Prototype Video
 Vide [here](https://drive.google.com/file/d/1ZxnDpQyjsgFgWzFX59DGXv3YQysPJNPS/view?usp=drive_link)
