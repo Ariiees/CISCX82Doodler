@@ -17,7 +17,7 @@ Black brash with size 10px and 255 opacity.
 2. Change brush opacity using **Opactiy** seedbar.
 3. Click **Clear** button to clean the current drawing.
 4. Click **Pick Color** button to choose any color you want.
-5. Click **Save** button to save your current drawing in the local app storage.
+5. Click **Save** button to save your current drawing in the local app storage. [Extra Customized]
 
 # Reference
 - [Make a Paint App for Android | Full Tutorial | Android Project](https://www.youtube.com/watch?v=xGrOHLk60q8)
