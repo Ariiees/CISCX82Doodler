@@ -7,16 +7,20 @@
     tools:context=".MainActivity">
 
     <!-- Doodle Canvas -->
+
+    <!--Tool Panel with AbsoluteLayout inside it-->
+
     <com.example.ciscx82doodler.DooleView
         android:id="@+id/drawingCanvas"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <!--Tool Panel with AbsoluteLayout inside it-->
     <LinearLayout
         android:id="@+id/toolPanel"
         android:layout_width="0dp"
@@ -53,6 +57,17 @@
                 android:progress="10" />
 
             <!-- Opacity SeekBar -->
+
+            <Button
+                android:id="@+id/shareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="170dp"
+                android:layout_y="4dp"
+                android:background="#673AB7"
+                android:text="Share"
+                android:textColor="@android:color/white" />
+
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
@@ -70,13 +85,14 @@
                 android:max="255"
                 android:progress="255" />
 
+
             <!-- Color Picker Button -->
             <Button
                 android:id="@+id/colorPicker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_x="151dp"
-                android:layout_y="47dp"
+                android:layout_x="100dp"
+                android:layout_y="58dp"
                 android:background="#673AB7"
                 android:text="Pick Color"
                 android:textColor="@color/white" />
@@ -86,19 +102,30 @@
                 android:id="@+id/saveButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_x="298dp"
-                android:layout_y="47dp"
+                android:layout_x="225dp"
+                android:layout_y="57dp"
                 android:background="#673AB7"
                 android:text="Save"
                 android:textColor="@android:color/white" />
+
+            <!-- Load Button -->
+            <Button
+                android:id="@+id/loadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="322dp"
+                android:layout_y="57dp"
+                android:background="#673AB7"
+                android:text="Load"
+                android:textColor="@color/white" />
 
             <!-- Clear Button -->
             <Button
                 android:id="@+id/clearButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_x="26dp"
-                android:layout_y="47dp"
+                android:layout_x="2dp"
+                android:layout_y="57dp"
                 android:background="#673AB7"
                 android:text="Clear"
                 android:textColor="@android:color/white" />

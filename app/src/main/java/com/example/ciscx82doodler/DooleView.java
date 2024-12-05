@@ -58,6 +58,14 @@ public class DooleView extends View {
         return bitmap;
     }
 
+    public void setBitmap(Bitmap loadedBitmap) {
+        if (loadedBitmap != null){
+            canvas.drawColor(Color.WHITE);
+            canvas.drawBitmap(loadedBitmap,0,0,null);
+        }
+    }
+
+
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
