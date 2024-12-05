@@ -31,4 +31,5 @@ Black brash with size 10px and 255 opacity.
 
 # Prototype Video
 Vide [here](https://youtu.be/dVsWGPe3Xuc) (IA08)
-Vide [here]() (IA09)
+
+Vide [here](https://youtube.com/shorts/qJMwBdcHFSU?feature=share) (IA09)
